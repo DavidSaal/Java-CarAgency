@@ -15,12 +15,12 @@ vehicles that it wants to sell. Implementation with **Thread control** such as
   * Jeep
   * Frigate
   * Bicycle
-  * Amphibious
   * Spy glider
   * Toy glider
   * Cruise ship
-  * Hybrid aircraft
+  * Amphibious
   * Elctric bicycle
+  * Hybrid aircraft
 + **System operations:**
   * Miles reset - reset vehicle miles after test drive.
   * Show vehicles agency - show all vehicles exists in the agency.
