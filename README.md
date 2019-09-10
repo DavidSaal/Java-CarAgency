@@ -1,0 +1,63 @@
+# VehicleAgency
+
+### Introduction
+Vehicle agency management **GUI** program that holds a database of various
+vehicles that it wants to sell. Implementation with **Thread control** such as
+*thread pool, semaphore locks, synchronization* and more.
+
+### Features
+#### Perform 4 operations on many vehicles:
++ **Operations:**
+  * Add new Vehices - adding new vehicles to vehicles agency.
+  * Buy vehicle - buying vehicle from the agency.
+  * Test drive - take a vehicles from the agency to a test drive.
+  * Change flag - change vehicle flage (only for sea-vehicles).
++ **Vehicles:**
+  * Jeep
+  * Frigate
+  * Bicycle
+  * Amphibious
+  * Spy glider
+  * Toy glider
+  * Cruise ship
+  * Hybrid aircraft
+  * Elctric bicycle
++ **System operations:**
+  * Miles reset - reset vehicle miles after test drive.
+  * Show vehicles agency - show all vehicles exists in the agency.
+  * Save current state - save current state of vehicles agency, miles and changes.
+  * Previous state - previous state go back (of 3 last states saves).
+  
+  ### Design Patterns:
+|Design Pattern  | Use |
+| :-------------: | ------------- |
+| **Thread pool**| Used to limit the number of test drive windows. |
+| **Singlethon**  | Implementing in "main menu" window to limit the number of windows.  |
+| **Deligator**  | Used to avoid multiple inheritance.   |
+| **Decorator** | Used to adding a vehicle color and a vehicle status in run-time. |
+| **Memento** | Used to saving 3 state and to return to the state. |
+| **Observer**| Used to calculating the total mileage of all vehicles test drive. |
+| **Abstract factory** | Using to producing new vehicles and to make sure that the system is expandable. |
+
+### Screenshots
+
+> Add new vehicle
+![add new vehicle](Images/1.gif)
+
+> Buy vehicle 
+![buy vehice](Images/1.gif)
+
+> Test drive 
+![test drive](Images/1.gif)
+
+> Change flag 
+![change flag](Images/1.gif)
+
+> Vehicles inventory
+![inventory](Images/1.gif)
+
+> Save current state/back to previous state
+![previous state](Images/1.gif)
+
+> Reset miles
+![reset mileage](Images/1.gif)
