@@ -6,7 +6,6 @@ vehicles that it wants to sell. Implementation with **Thread control** such as
 *thread pool, semaphore locks, synchronization* and more.
 
 ### Features
-#### Perform 4 operations on many vehicles:
 + **Operations:**
   * Add new Vehices - adding new vehicles to vehicles agency.
   * Buy vehicle - buying vehicle from the agency.
@@ -31,13 +30,13 @@ vehicles that it wants to sell. Implementation with **Thread control** such as
   ### Design Patterns:
 |Design Pattern  | Use |
 | :-------------: | ------------- |
+| **Abstract factory** | Using to producing new vehicles and to make sure that the system is expandable. |
 | **Thread pool**| Used to limit the number of test drive windows. |
 | **Singlethon**  | Implementing in "main menu" window to limit the number of windows.  |
 | **Deligator**  | Used to avoid multiple inheritance.   |
 | **Decorator** | Used to adding a vehicle color and a vehicle status in run-time. |
 | **Memento** | Used to saving 3 state and to return to the state. |
 | **Observer**| Used to calculating the total mileage of all vehicles test drive. |
-| **Abstract factory** | Using to producing new vehicles and to make sure that the system is expandable. |
 
 ### Screenshots
 
