@@ -40,5 +40,4 @@ vehicles that it wants to sell. Implementation with **Thread control** such as
 
 ### Screenshots
 
-> Demonstration
-![Demonstration](Demonstration.gif)
+<img src="Demonstration.gif">
