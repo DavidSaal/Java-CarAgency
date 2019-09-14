@@ -40,23 +40,5 @@ vehicles that it wants to sell. Implementation with **Thread control** such as
 
 ### Screenshots
 
-> Add new vehicle
-![add new vehicle](Images/1.gif)
-
-> Buy vehicle 
-![buy vehice](Images/1.gif)
-
-> Test drive 
-![test drive](Images/1.gif)
-
-> Change flag 
-![change flag](Images/1.gif)
-
-> Vehicles inventory
-![inventory](Images/1.gif)
-
-> Save current state/back to previous state
-![previous state](Images/1.gif)
-
-> Reset miles
-![reset mileage](Images/1.gif)
+> Demonstration
+![Demonstration](Demonstration.gif)
