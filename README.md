@@ -38,6 +38,6 @@ vehicles that it wants to sell. Implementation with **Thread control** such as
 | **Memento** | Used to saving 3 state and to return to the state. |
 | **Observer**| Used to calculating the total mileage of all vehicles test drive. |
 
-### Screenshots
-
-<img src="Demonstration.gif">
+### Demonstration
+ > Video Demonstration
+![Video Demonstration](Demonstration.gif)
